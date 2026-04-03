@@ -1,0 +1,18 @@
+Target,Parents,Num_Parents,McFadden_R2,R2
+Aches,"[('age', 0.276), ('Chills', 0.685), ('RedEye', -0.423), ('Cough', 0.608), ('Diarrhea', 0.092), ('COVID', 0.237), ('Fatigue', 0.861), ('Fever', 0.221), ('gender', -0.091), ('Headache', 0.611), ('Nausea', 0.149), ('ShortBreath', -0.079), ('Vomit', -0.125), ('Wheeze', 0.169)]",14,0.5555,
+age,[],0,,0.0
+ChestPain,[],0,-3.5918,
+Chills,"[('Aches', 0.736), ('age', 0.133), ('ChestPain', 0.264), ('RedEye', 1.411), ('Cough', -0.059), ('Fatigue', 0.266), ('Fever', -0.219), ('Headache', 0.49), ('Nausea', 0.302), ('RunnyNose', 0.478), ('ShortBreath', 0.265), ('Wheeze', 0.172)]",12,0.5369,
+RedEye,"[('Aches', -0.553), ('age', 0.264), ('Chills', 1.529), ('Cough', -0.503), ('COVID', -0.548), ('Fever', -0.254)]",6,0.4681,
+Cough,"[('Aches', 0.487), ('age', 0.172), ('ChestPain', 0.25), ('Chills', -0.114), ('RedEye', -0.388), ('COVID', 0.117), ('Fatigue', 0.196), ('Fever', 0.992), ('gender', -0.067), ('Headache', 0.359), ('Nausea', 0.081), ('RunnyNose', 0.972), ('ShortBreath', 0.483), ('Wheeze', 0.192)]",14,0.4875,
+Diarrhea,[],0,-2.0349,
+COVID,"[('age', 0.144), ('RedEye', -0.469), ('Wheeze', -0.079)]",3,0.0992,
+Fatigue,"[('Aches', 0.882), ('age', 0.228), ('ChestPain', 0.243), ('Chills', 0.268), ('RedEye', -0.143), ('Cough', 0.318), ('Diarrhea', 0.101), ('COVID', 0.129), ('Fever', 0.325), ('gender', 0.055), ('Headache', 0.535), ('Nausea', 0.251), ('RunnyNose', 0.356), ('ShortBreath', 0.175), ('Vomit', -0.096)]",15,0.5553,
+Fever,"[('RedEye', -0.073), ('Cough', 0.974), ('Fatigue', 0.122)]",3,0.2456,
+gender,[],0,-0.0039,
+Headache,"[('Aches', 0.63), ('age', -0.205), ('ChestPain', 0.083), ('Chills', 0.398), ('Cough', 0.504), ('COVID', -0.067), ('Fatigue', 0.511), ('Fever', 0.208), ('Nausea', 0.233), ('RunnyNose', 0.16), ('ShortBreath', 0.177)]",11,0.549,
+Nausea,"[('Chills', 0.07), ('Fatigue', 0.186), ('Headache', 0.251), ('Vomit', 0.804)]",4,0.4844,
+RunnyNose,"[('age', -0.675), ('Chills', 0.363), ('Cough', 1.145), ('Diarrhea', 0.112), ('COVID', -0.105), ('Fatigue', 0.266), ('Fever', 0.154), ('Headache', 0.136), ('Nausea', 0.097), ('ShortBreath', 0.084), ('Wheeze', 0.246)]",11,0.4574,
+ShortBreath,"[('ChestPain', 0.099), ('Chills', 0.127), ('Cough', 0.16), ('Fatigue', 0.203), ('Headache', 0.239), ('Nausea', 0.102), ('Wheeze', 0.393)]",7,0.346,
+Vomit,"[('ChestPain', -0.161), ('Diarrhea', 0.143), ('Fever', 0.187), ('Nausea', 1.296), ('Wheeze', 0.228)]",5,0.5918,
+Wheeze,[],0,-1.9954,
